@@ -1,6 +1,9 @@
 name: React-YAML
 
 on:
+  push:
+    branches: 
+      - master
   pull_request:
     branches: "master"
 
